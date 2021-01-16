@@ -11,12 +11,12 @@ const songsReducer = () => {
             duration: '2:30'
         },
         {
-            title: 'All Star',
-            duration:'3:15'
+            title: 'Lovesick girls',
+            duration:'3:05'
         },
         {
-            title: 'All Star',
-            duration:'3:15'
+            title: 'Levitating',
+            duration:'2:15'
         },
         {
             title: 'All Star',

@@ -1,10 +1,13 @@
 import React from "react";
 import SongList from './SongList'
-import {selectSong} from '../actions'; //importing NAMED EXPORT
 const App = () => {
 return (
-  <div>
+  <div className="ui continer grid">
+    <div className="ui row">
+    <div className="column eight wide">
     <SongList />
+    </div>
+    </div>
   </div>
 );
 };

@@ -1,5 +1,5 @@
     
- export   const selectSong = () => {   //Named export
+ export   const selectSong = song => {   //Named export
     return{
         type: 'SONG_SELECTED',
         payload: song
