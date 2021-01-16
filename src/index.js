@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-ipoiport
+import index from "../actions";
 import App from "./Components/App";
 
 ReactDOM.render(<App />, document.querySelector("#root"));
