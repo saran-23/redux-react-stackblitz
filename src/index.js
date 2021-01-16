@@ -1,7 +1,17 @@
+//library
 import React from "react";
 import ReactDOM from "react-dom";
-import index from './actions';
-import App from "./Components/App";
+import { Provider } from 'react-redux';
+import {createStore} from 'redux';
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+
+//own code
+import App from "./Components/App";
+import reducers from './reducers';
+
+ReactDOM.render(
+<Provider store={createStore(reducers)}>
+<App />
+</Provider>,
+ document.querySelector("#root"));
     
