@@ -30,7 +30,7 @@ class SongList extends React.Component {
 };
 
   const showStatus = (state) => {
-      console.log(state);
+      
       return {songs: state.songs};
   }
 
